@@ -65,7 +65,7 @@ function TechnologySection() {
 
   return (
     <>
-      <section className="bg-white py-16">
+      <section id="technologies" className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6">
 
           {/* Heading */}
