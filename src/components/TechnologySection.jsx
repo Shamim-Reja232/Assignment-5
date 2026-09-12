@@ -110,27 +110,23 @@ function TechnologySection() {
                   <h3 className="text-lg font-bold text-gray-900">
                     Your Stack
                   </h3>
-
-                  <p className="text-sm text-gray-500">
-                    {stack.length}{" "}
-                    {stack.length === 1
-                      ? "Technology Selected"
-                      : "Technologies Selected"}
-                  </p>
+                     
+                     <p className="mt-1 text-sm text-gray-500">
+                              {stack.length === 0
+                              ? "No Technologies seleted yet"
+                             : stack.length === 1
+                             ? "1 Technology added"
+                            : `${stack.length} Technologies added`}
+                   </p>
+                  
                 </div>
               </div>
 
               {/* Empty State */}
               {stack.length === 0 ? (
                 <div className="py-10 text-center">
-                  <p className="text-sm font-medium text-gray-500">
-                    No Technologies added
-                  </p>
-
                   <p className="mt-2 text-xs text-gray-400">
                     Your stack is empty.
-                    <br />
-                    Add technologies to get started.
                   </p>
                 </div>
               ) : (
