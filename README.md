@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 Dev Stack Builder
+- GitHub Repository: https://github.com/Shamim-Reja232/Assignment-5
+- Live Site: https://assignment-5-ashen-two.vercel.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Project Description
 
-Currently, two official plugins are available:
+Dev Stack Builder is a simple and user-friendly web application where users can explore different web development technologies and build their own technology stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Technologies Used
 
-## React Compiler
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- DaisyUI
+- React-Toastify
+- JSON
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ 3 Features
 
-## Expanding the ESLint configuration
+1. Technology Stack Builder
+2. Responsive Design
+3. Toast Notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ⚛️ React Questions & Answers
+
+## 1. What is JSX, and why is it used in React?
+
+JSX is a syntax that allows us to write HTML-like code inside JavaScript. It makes React code easier to read and write.
+
+## 2. What is the difference between props and state?
+
+Props are used to pass data from a parent component to a child component. State is used to store and manage data that can change inside a component.
+
+## 3. What does the useState hook do, and where did you use it in this project?
+
+useState is used to create and manage state in a React component. I used it to manage the mobile menu and technology data.
+
+## 4. What does the useEffect hook do, and why did you need it to load the JSON data?
+
+useEffect is used to perform side effects in React. I used it to load the technology data from the JSON file when the component loads.
+
+## 5. Why does every item in a .map() list need a unique key prop?
+
+A unique key helps React identify each item in a list and efficiently update the UI when the list changes.
+
+## 6. What is conditional rendering? Show one place you used it.
+
+Conditional rendering means showing different content based on a condition.
+
+## 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
+A parent sends data to a child using props. A child can send information back by calling a function passed from the parent through props.
+
+## 👨‍💻 Author
+
+Md. Shamim Reja
