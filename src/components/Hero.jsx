@@ -1,3 +1,4 @@
+import heroImage from "../assets/banner-stack.png";
 function Hero() {
   return (
     <section className="bg-white">
@@ -34,13 +35,13 @@ function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end">
-          <img
-            src="https://illustrations.popsy.co/white/developer.svg"
-            alt="Developer illustration"
-            className="w-full max-w-md"
-          />
-        </div>
+     <div className="flex justify-center md:justify-end">
+      <img
+          src={heroImage}
+          alt="Development Stack"
+          className="w-full max-w-md"
+       />
+     </div>
 
       </div>
     </section>
