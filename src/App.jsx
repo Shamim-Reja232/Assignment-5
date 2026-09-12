@@ -1,10 +1,16 @@
+import Navbar from "./components/Navbar"
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-white">
-        Dev Stack
-      </h1>
-    </div>
+    <>
+      <Navbar />
+
+      <main className="min-h-screen bg-white">
+        <h1 className="py-20 text-center text-4xl font-bold">
+          Dev Stack
+        </h1>
+      </main>
+    </>
   )
 }
 
